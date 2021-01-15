@@ -27,7 +27,7 @@ namespace KalkOt
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
             if (textBox1.Text != "") mnoz = Convert.ToDouble(textBox1.Text);
             if (textBox2.Text != "") x = Convert.ToDouble(textBox2.Text);
@@ -45,7 +45,7 @@ namespace KalkOt
             
         }
 
-        private void textBox1_KeyPress_1(object sender, KeyPressEventArgs e)
+        private void TextBox1_KeyPress_1(object sender, KeyPressEventArgs e)
         {
             char number = e.KeyChar;
 
@@ -55,7 +55,7 @@ namespace KalkOt
             }
         }
 
-        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        private void TextBox2_KeyPress(object sender, KeyPressEventArgs e)
         {
             char number = e.KeyChar;
 
@@ -65,7 +65,7 @@ namespace KalkOt
             }
         }
 
-        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        private void TextBox3_KeyPress(object sender, KeyPressEventArgs e)
         {
             char number = e.KeyChar;
 
@@ -75,7 +75,7 @@ namespace KalkOt
             }
         }
 
-        private void textBox4_KeyPress(object sender, KeyPressEventArgs e)
+        private void TextBox4_KeyPress(object sender, KeyPressEventArgs e)
         {
             char number = e.KeyChar;
 
@@ -85,7 +85,7 @@ namespace KalkOt
             }
         }
 
-        private void textBox5_KeyPress(object sender, KeyPressEventArgs e)
+        private void TextBox5_KeyPress(object sender, KeyPressEventArgs e)
         {
             char number = e.KeyChar;
 
